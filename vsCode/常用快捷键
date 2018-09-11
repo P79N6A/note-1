@@ -2,9 +2,13 @@
 切换全屏                control command f
 拆分编辑器              command \
 切换窗口                control w
-打开终端                control ` 或 command j
+打开终端                control `
 删除右侧所有内容         command k command k
 删除左侧所有内容         command delete
 删除左侧所有空格         alt delete
 删除行                  shift command k
+在上面插入行            shift command enter
+
+
+
 
