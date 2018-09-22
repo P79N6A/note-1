@@ -17,5 +17,17 @@ option  ->  alt
     以文档为单位移动    cmd+上下方向键
 多按一个shift键，在移动光标的同时选中其中的文本
 
+按住option移动方向键来移动行
+
+代码格式化      option shift F
+或选中一段代码，    cmd K cmd F
+
+
+调换字符位置    ctrl t
+
+调整字符大小写  选中一串字符，在命令面板里运行转换为大写/小写  cmd shift P   搜索transform
+
+合并代码行      ctrl j
+
 
 
