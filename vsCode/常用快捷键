@@ -29,5 +29,8 @@ option  ->  alt
 
 合并代码行      ctrl j
 
-
-
+多光标
+1、按住alt 然后点击鼠标到想添加光标的位置
+2、cmd alt 加上下方向键
+3、cmd d (单词)
+4、alt shift i (代码块)
