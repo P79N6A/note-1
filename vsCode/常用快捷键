@@ -79,3 +79,42 @@ Ctrl+空格 手动调出建议列表（在mac上会与系统默认快捷键有�
 把光标放到变量名上  按F2  这个函数或者变量出现的地方就都会被修改  和替换不一样
 
 关闭文本提示  editor.wordBasedSuggestions
+
+代码折叠
+cmd+option+左方括号
+递归折叠
+cmd+k   cmd+左方括号
+全部折叠
+cmd+k  cmd+o
+展开
+cmd+k  cmd+j
+
+小地图
+设置  editor.minimap
+
+面包屑
+breadcrumbs.enabled
+
+查找 
+cmd+f
+cmd+g
+默认不区分大小写  可以点击搜索框里大小写按钮或者cmd+option+c
+全单词匹配  有时候我们搜索的单词恰好是别的某个单词中间的一部分，如果不希望这样的结果出现在搜索结果中，可以
+点击第二个按钮或者cmd+oprion+w来关闭他
+第三个是正则匹配  cmd+option+r
+右边的是将选中的一段文本范围设置为接下来的搜索区域，然后只在这个区域内进行搜索
+editor.find.seedSearchStringFromSelection
+cmd+option+f搜索同时调出替换窗口
+
+
+多文件搜索
+cmd+shift+f
+search.collapseResults  用来控制是否自动展开搜索结果，默认配置auto   会根据搜索结果的多少来决定是否
+要将某个文件下的搜索结果展开，如果某个文件夹下的结果过多的话，就会将其暂时折叠
+search.location  边栏的位置  左或者下
+共享搜索记录
+editor.find.globalFindClipboard和search.globalFindClipboard打开  在vscode中搜索关键词和记录会被
+共享给系统，然后打开Safari或者chrome按下cmd+f就会自动填充搜索框
+
+
+
