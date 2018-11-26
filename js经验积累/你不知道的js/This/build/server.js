@@ -61,7 +61,7 @@ const mockSrv = apim.express({
     root: path.join(__dirname, '../mock'),
     // 项目 schema token 具体到 apim 平台查看(apim.baidu.com)
 /* TO BE REPLACED */
-    schemaToken: '6463587ed20aea7746fba3a354bf128b',
+    schemaToken: '',
     port: 9090,
 /* TO BE REPLACED */
     // 是否启动时候立刻自动同步

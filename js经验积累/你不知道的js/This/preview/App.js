@@ -15,7 +15,7 @@ export default oapAppEntry({
     `,
     initData() {
 /* TO BE REPLACED */
-        return {};
+        return {"widgetStatus":{"w1":true},"widgetLogs":{"w1":{}},"widgetEvents":{"w1":{}},"widgetDatas":{"w1":{}},"widgetProps":{"w1":{}}};
 /* TO BE REPLACED */
     },
     components: {
