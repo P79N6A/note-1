@@ -1,0 +1,17 @@
+/*
+ * 组件样式namespace, 请勿删除!!
+ */
+
+size($w, $h)
+    width $w
+    height $h
+
+$psPixels = 1242 // 设计稿的尺寸，可以改成750
+rem(val, psPixels = $psPixels)
+    unit(round(val / (psPixels / 20 ), 4), 'rem')
+
+.Demo
+    width: 20rem
+    .wrap
+        size(rem(1000), rem(500))
+        background-color #f66

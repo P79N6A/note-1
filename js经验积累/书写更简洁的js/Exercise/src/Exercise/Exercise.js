@@ -82,7 +82,7 @@ export default {
                     name: 'f',
                     age: '6',
                     text: 't6'
-                },
+                }
             ]
         };
     },
